@@ -1,0 +1,16 @@
+Global
+    -Change colors to black, white, navy, and orange
+    Small Screen 
+        -Need to put IPMA logo in top-right
+
+        
+Home Page
+    Small Screen
+        -President's message needs to be higher on the screen 
+        -Showcase section needs to be smaller
+
+About Page 
+    -Need to change background to #f8f9fa;
+
+Board Page
+-Make table striped on light colored backgrounds

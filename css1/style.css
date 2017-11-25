@@ -1,0 +1,124 @@
+/* ######### Global ######## */
+body {
+  background-color: #333;
+  color: #fff; }
+/*
+.navbar {
+  opacity: 0.9; }
+*/
+
+.logo {
+  width: 50%; }
+
+#page-navigation {
+  background: #fff;
+  padding-top: 150px;
+  color: #000; }
+  #page-navigation .previous-link {
+    color: #000 !important; }
+
+#footer a {
+  color: #fff; }
+#footer img{
+  width:50%;
+}
+
+  /* Global Media Queries 
+@media only screen and (max-width: 576px) {
+    #navbar1 {
+        display: none;
+    }
+    #navbar2{
+      margin-top:-62px;
+    }
+    #mobile-showcase{
+      padding-top: -200px;
+    }
+}
+*/
+/* ######### Home Page  ############## */
+#showcase {
+  background: url("../img/showcase1.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  background-color: rgba(0, 0, 0, 0.7); }
+  #showcase .home-inner {
+    padding-top: 150px; }
+  #showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px; }
+  #showcase .fa {
+    color: #008ed6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#events-section .ind-event {
+  border-width: 1px;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  font-family: 'Roboto', sans-serif; }
+
+#events-section .heading-title {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400;
+  font-size: 3em; }
+
+#events-section a {
+  color: #000; }
+
+#events-section .date {
+  font-size: .85em;
+  font-family: 'Roboto', sans-serif; }
+
+#more-section .text-dark:hover {
+  color: #fff !important; }
+
+#more-section .fa-users {
+  color: #3FB618; }
+
+#more-section .fa-globe {
+  color: #2A9FD6; }
+
+#more-section .fa-key {
+  color: #ff8800; }
+
+/* ######### About Page ############# */
+#about-section-1 {
+  background-color: #fff;
+  color: #444; }
+  #about-section-1 h1 {
+    font-weight: bold; }
+
+#about-section-2, #about-section-4 {
+  background-color: #fff;
+  color: #444; }
+  #about-section-2 h2, #about-section-4 h2 {
+    font-weight: bold; }
+
+#about-section-3 h2 {
+  font-weight: bold; }
+
+#about-section-3 .fa {
+  color: #008ed6;
+  background: #aaa;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 15px; }
+
+  /* ######### Board Members Page ############# */
+#board-members-odd{
+  background-color:#f8f9fa;
+  color:#000;
+}
+
+  /* ######### Scholarship Page ############# */
+.scholarship-image{
+  width:75%;
+}
