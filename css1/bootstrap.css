@@ -1388,8 +1388,8 @@ fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff; }
+  background-color: #0D47A1;
+  border-color: #0D47A1 }
   .btn-primary:hover {
     color: #fff;
     background-color: #0069d9;
@@ -2333,7 +2333,7 @@ tbody.collapse.show {
   padding-bottom: 0.5rem; }
 
 .navbar-collapse {
-  flex-basis: 100%;
+  flex-basis: 60%;
   align-items: center; }
 
 .navbar-toggler {
@@ -2350,7 +2350,7 @@ tbody.collapse.show {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
-  vertical-align: middle;
+  vertical-align: center;
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%; }
@@ -3696,7 +3696,7 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #007bff !important; }
+  background-color: #0D47A1 !important; }
 
 a.bg-primary:focus, a.bg-primary:hover {
   background-color: #0062cc !important; }

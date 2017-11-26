@@ -4,7 +4,7 @@
 <!-- IN-PAGE NAVIGATION -->
 <section id="page-navigation" class="bg-light">
   <div class="container">
-    <a class="pr-1 previous-link" href="index.html">Home</a>/<a class="px-1" href="board.html">Board Members</a>
+    <a class="pr-1 previous-link" href="hr.php">Home</a>/<a class="px-1" href="board.php">Board Members</a>
   </div>
 </section>
 

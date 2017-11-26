@@ -13,7 +13,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1 class="mb-3">Ron E. Wilson Memorial Schoalrship</h1>
+        <h1 class="mb-3">Ron E. Wilson Memorial Scholarship</h1>
       </div>
     </div>
     <div class="row pt-2">

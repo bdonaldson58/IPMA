@@ -14,13 +14,12 @@
 
 <body> 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+    <a href="hr.php" class="navbar-brand"><img class="logo" src="img/logo1.png"></a>
+    <button class="navbar-toggler navbar-toggler-right ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <a href="hr.php" class="navbar-brand mr-5"><img class="logo" src="img/logo1.png"></a>
     <div class="collapse navbar-collapse flex-md-column" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto social">
             <li class="nav-item">
                 <a target="_blank" href="https://www.facebook.com/IPMAHROK/" class="nav-link"><i class="fa fa-facebook"></i></a>
             </li>
@@ -63,8 +62,8 @@
                   <li class="nav-item dropdown">
                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More</a>
                       <div class="dropdown-menu">
-                          <a href="" class="dropdown-item">Item 1</a>
-                          <a href="" class="dropdown-item">Item 2</a>
+                          <a href="bylaws.php" class="dropdown-item">Bylaws</a>
+                          <a href="presidents.php" class="dropdown-item">Past Presidents</a>
                           <a href="" class="dropdown-item">Item 3</a>
                           <a href="" class="dropdown-item">Item 4</a>
                           <a href="" class="dropdown-item">Item 5</a>
@@ -74,6 +73,5 @@
               </ul>
               </div>
             </div>
-        </form>
     </div>
 </nav>
