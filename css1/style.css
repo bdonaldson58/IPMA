@@ -1,22 +1,20 @@
 /* ######### Global ######## */
 body {
-
   background-color: #343a40 ;
   color: rgba(255, 255, 255, 0.5);
 }
-/*
-.navbar {
-  opacity: 0.9; }
-*/
+
 .logo{
   width:60%;
 }
 #page-navigation {
   background: #fff;
-  padding-top: 150px;
-  color: #444; }
+  padding-top: 115px;
+  color: #444; 
+}
   #page-navigation .previous-link {
-    color: #444 !important; }
+    color: #444 !important; 
+  }
 
 #footer a {
   color: rgba(255, 255, 255, 0.5);
@@ -28,11 +26,17 @@ body {
   width:50% !important;
 }
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 925px) {
   .social{
     display:none;
   }
 }
+@media only screen and (max-width: 1050px) {
+  #main-links{
+    font-size:85%;
+  }
+  }
+
 
 /* ######### Home Page  ############## */
 #showcase {

@@ -301,5 +301,5 @@
 </section>
 
 <?php
- include 'inc1/footer.php';
+ include 'inc1/footer1.php';
  ?>

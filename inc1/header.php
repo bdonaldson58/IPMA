@@ -34,7 +34,7 @@
             </li>
         </ul>
             <div class="input-group">
-              <ul class="navbar-nav ml-auto">
+              <ul class="navbar-nav ml-auto" id="main-links">
                   <li class="nav-item">
                       <a href="hr.php" class="nav-link">Home</a>
                   </li>
@@ -57,18 +57,18 @@
                       </div>
                   </li> 
                   <li class="nav-item">
-                      <a target="_blank" href="#" class="nav-link">Membership</a>
+                      <a href="#" class="nav-link">Membership</a>
                   </li>
                   <li class="nav-item dropdown">
                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More</a>
-                      <div class="dropdown-menu">
+                      <ul class="dropdown-menu dropdown-menu-right">
                           <a href="bylaws.php" class="dropdown-item">Bylaws</a>
                           <a href="presidents.php" class="dropdown-item">Past Presidents</a>
                           <a href="" class="dropdown-item">Item 3</a>
                           <a href="" class="dropdown-item">Item 4</a>
                           <a href="" class="dropdown-item">Item 5</a>
                           <a href="" class="dropdown-item">Item 6</a>
-                      </div>
+                      </ul>
                   </li>
               </ul>
               </div>

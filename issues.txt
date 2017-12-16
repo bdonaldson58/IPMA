@@ -14,3 +14,7 @@ About Page
 
 Board Page
 -Make table striped on light colored backgrounds
+
+####### BEFORE I FINISH ###########
+-Make sure every button links to the correct page 
+-Make sure every link links to the correct page 
