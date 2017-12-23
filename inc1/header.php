@@ -56,9 +56,13 @@
                           <a href="" class="dropdown-item">Training Archive</a>
                       </div>
                   </li> 
-                  <li class="nav-item">
-                      <a href="#" class="nav-link">Membership</a>
-                  </li>
+                  <li class="nav-item dropdown">
+                      <a href="membership-info.php" class="nav-link dropdown-toggle" data-toggle="dropdown">Membership</a>
+                      <div class="dropdown-menu">
+                          <a href="" class="dropdown-item">Information</a>
+                          <a href="membership-request.php" class="dropdown-item">Membership Request</a>
+                      </div>
+                  </li> 
                   <li class="nav-item dropdown">
                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More</a>
                       <ul class="dropdown-menu dropdown-menu-right">

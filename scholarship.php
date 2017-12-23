@@ -2,23 +2,27 @@
  include 'inc1/header.php';
  ?>
   <!-- IN-PAGE NAVIGATION -->
-<section id="page-navigation">
-  <div class="container">
-    <a class="pr-1 previous-link" href="index.html">Home</a>/<a class="px-1" href="scholarship.html">Scholarship</a>
-  </div>
-</section>
+<header id="scholarship-showcase">
+    <div class="dark-overlay">
+        <div class="scholarship-inner">
+            <div class="container">
+                <div class="row">
+                <h1 class="mx-auto">Ron E. Wilson Memorial Scholarship</h1>
+                </div>
+                <div class="row">
+                <p class="text-center">In memoriam and to honor our colleague and friend, Ron Wilson, the IPMA-HR Oklahoma Chapter  renamed our chapter scholarship to The  Ron E.  Wilson  Memorial Scholarship.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
 <!-- ###### SECTION 1 #######-->
 <section id="about-section-1" class="pt-4 pb-4">
   <div class="container">
-    <div class="row">
-      <div class="col">
-        <h1 class="mb-3">Ron E. Wilson Memorial Scholarship</h1>
-      </div>
-    </div>
     <div class="row pt-2">
       <div class="col-md-7"> 
-        <p><em>In memoriam and to honor our colleague and friend, Ron Wilson, the IPMA-HR Oklahoma Chapter  renamed our chapter scholarship to The  Ron E.  Wilson  Memorial Scholarship.   Ron was always a big proponent of the development and continuing education of potential future Human Resource Leaders.    Please see below  for eligibility requirements.</em></p>
+        <p></p>
         <h3><strong>Purpose</strong></h3>
         <p>The purpose of this scholarship is to boost the HR profession by supporting the development and further education of potential future HR leaders.  This program will provide financial assistance to assist with professional development.</p>
       </div>
@@ -33,7 +37,7 @@
 <section id="about-section-3" class="pt-4 pb-3">
 <div class="container">
 <div class="row">
-<h2>2017 Recipient</h2>
+<h2 class="mx-auto">2017 Recipient</h2>
 </div>
   <div class="row pt-2">
     <div class="col-md-5">

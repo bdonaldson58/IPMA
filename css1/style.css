@@ -47,6 +47,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   color:#fff;
 }
+
   #showcase .home-inner {
     padding-top: 150px; }
   #showcase .dark-overlay {
@@ -132,3 +133,132 @@ body {
   .bylaws-separator{
     border-bottom: 1px solid #000;
   }
+
+  /* ######### Membership Page ############# */
+#showcase1 {
+  background: url("../img/membership.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #showcase1 .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #showcase1 .membership-inner{
+      padding-top:200px;
+    }
+
+    /* ######### Board Page ############# */
+#board-showcase {
+  background: url("../img/board.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #board-showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #board-showcase .board-inner{
+      padding-top:200px;
+    }
+
+      /* ######### Scholarship Page ############# */
+#scholarship-showcase {
+  background: url("../img/scholarship-showcase.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #scholarship-showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #scholarship-showcase .scholarship-inner{
+      padding-top:200px;
+    }
+
+
+      /* ######### About Page ############# */
+#about-showcase {
+  background: url("../img/aboutus.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #about-showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #about-showcase .about-inner{
+      padding-top:200px;
+    }
+
+      /* ######### Presidents Page ############# */
+#presidents-showcase {
+  background: url("../img/presidents.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #presidents-showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #presidents-showcase .presidents-inner{
+      padding-top:200px;
+    }
+
+      /* ######### Presidents Page ############# */
+#bylaws-showcase {
+  background: url("../img/bylaws.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #bylaws-showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #bylaws-showcase .bylaws-inner{
+      padding-top:200px;
+    }
+
+        

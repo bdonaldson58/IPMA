@@ -1,24 +1,25 @@
 <?php
  include 'inc1/header.php';
  ?>
-<!-- IN-PAGE NAVIGATION -->
-<section id="page-navigation" class="bg-light">
-  <div class="container">
-    <a class="pr-1 previous-link" href="hr.php">Home</a>/<a class="px-1" href="board.php">Board Members</a>
-  </div>
-</section>
 
-<!-- ###### BOARD MEMBERS TITLE SECTION #######-->
-<section id="board-members-odd" class="pt-4">
-  <div class="container">
-    <div class="row pb-5">
-        <h1><strong>Current Board Members</strong></h1>
-      </div>
-  </div>
-</section>
+<header id="board-showcase">
+    <div class="dark-overlay">
+        <div class="board-inner">
+            <div class="container">
+                <div class="row">
+                <h1 class="mx-auto">Board Members</h1>
+                </div>
+                <div class="row">
+                <h5 class="mx-auto">We appreciate the wonderful people who have served the OPHRA Organization</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
 <!-- ###### PRESIDENT SECTION #######-->
     <section id="board-members-odd" >
-        <div class="container">
+        <div class="container pt-3">
     <div class="row" >
         <h2 class="mb-3"><strong>PRESIDENT</strong></h2>
     </div>

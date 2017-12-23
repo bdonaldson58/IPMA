@@ -1,28 +1,26 @@
 <?php
  include 'inc1/header.php';
  ?>
-  <!-- IN-PAGE NAVIGATION -->
-<section id="page-navigation">
-  <div class="container">
-    <a class="pr-1 previous-link" href="hr.php">Home</a>/<a class="px-1" href="">Bylaws</a>
-  </div>
-</section>
+<header id="bylaws-showcase">
+    <div class="dark-overlay">
+        <div class="bylaws-inner">
+            <div class="container">
+                <div class="row">
+                <h1 class="text-center">Oklahoma Chapter
+        International Public Management Association for Human Resources
+        Bylaws</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
 
 <!-- ###### SECTION 1 #######-->
 <section id="about-section-1" class="pt-4">
   <div class="container">
-    <div class="row">
-      <div class="col">
-        <h1>Oklahoma Chapter
-        International Public Management Association for Human Resources
-        Bylaws</h1>
-      </div>
-    </div>
     <div class="row pt-2">
-      <div class="col-md-6">
-        <img src="img/bylaws.jpg" alt="" class="img-fluid">
-      </div>
-      <div class="col-md-6"> 
+      <div class="col-md-12"> 
         <p>A state association affiliated with the International Public Management Association-Human Resources (IPMA-HR)</p>
         <ul class="list-unstyled">
           <li><strong>Article I </strong>- Name, Affiliations and Geographic Area</li>

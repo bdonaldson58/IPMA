@@ -2,29 +2,32 @@
  include 'inc1/header.php';
  ?>
   <!-- IN-PAGE NAVIGATION -->
-<section id="page-navigation">
-  <div class="container">
-    <a class="pr-1 previous-link" href="index.html">Home</a>/<a class="px-1" href="about.html">About</a>
-  </div>
-</section>
+<header id="about-showcase">
+    <div class="dark-overlay">
+        <div class="about-inner">
+            <div class="container">
+                <div class="row">
+                <h1 class="mx-auto">About IPMA-HROK</h1>
+                </div>
+                <div class="row">
+                <h5 class="mx-auto">Please read below to learn more about our organization</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
 
 <!-- ###### SECTION 1 #######-->
-<section id="about-section-1" class="pt-4">
+<section id="about-section-2" class="pt-4">
   <div class="container">
     <div class="row">
-      <div class="col">
-        <h1>About IPMA-HROK</h1>
-      </div>
-    </div>
-    <div class="row pt-2">
-      <div class="col-md-7">
-        <img src="img/aboutus.jpg" alt="" class="img-fluid">
-      </div>
-      <div class="col-md-5"> 
+      <div class="col"> 
+        <h2 class="pb-3">Our Organization</h2>
         <p>The <strong>Oklahoma Chapter of the International Public Management Association - Human Resources (IPMA-HROK)</strong>, is the Oklahoma Chapter of the International Public Management Association for Human Resources (IPMA-HR), and a member of the IPMA-HR Southern Region.  IPMA-HROK serves the needs of the public sector human resources management professionals by providing essential and comprehensive resources. In addition, IPMA-HROK is committed to advancing the human resources profession and the capabilities of all human resources professionals to ensure that HR is an essential and effective partner in the management and development of public sector employees.</p>
       </div>
+      </div>
     </div>
-  </div>
 </section>
 
 <!-- ###### SECTION 2 #######-->

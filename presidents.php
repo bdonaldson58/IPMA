@@ -1,28 +1,26 @@
 <?php
  include 'inc1/header.php';
  ?>
-<!-- IN-PAGE NAVIGATION -->
-<section id="page-navigation" class="bg-light">
-  <div class="container">
-    <a class="pr-1 previous-link" href="hr.php">Home</a>/<a class="px-1" href="presidents.php">Presidents</a>
-  </div>
-</section>
+<header id="presidents-showcase">
+    <div class="dark-overlay">
+        <div class="presidents-inner">
+            <div class="container">
+                <div class="row">
+                <h1 class="mx-auto">Past Presidents</h1>
+                </div>
+                <div class="row">
+                <h5 class="mx-auto">Below is a list of all of the former presidents of this organization</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
-<!-- ###### BOARD MEMBERS TITLE SECTION #######-->
-<section id="board-members-odd" class="pt-4">
-  <div class="container">
-    <div class="row pb-2">
-        <h1><strong>Past Presidents</strong></h1>
-      </div>
-  </div>
-</section>
+
 <!-- ###### SECTION #######-->
     <section id="board-members-odd" >
         <div class="container">
-    <div class="row pb-5" >
-    <h5>Below is a list of all of the former presidents of this organization
-    </div> 
-    <div class="row">
+        <div class="row py-4">
         <div class="col-md-12">
             <table class="table table-striped">
                 <thead>
