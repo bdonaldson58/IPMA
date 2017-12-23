@@ -1,0 +1,264 @@
+/* ######### Global ######## */
+body {
+  background-color: #343a40 ;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.logo{
+  width:60%;
+}
+#page-navigation {
+  background: #fff;
+  padding-top: 115px;
+  color: #444; 
+}
+  #page-navigation .previous-link {
+    color: #444 !important; 
+  }
+
+#footer a {
+  color: rgba(255, 255, 255, 0.5);
+ }
+#footer img{
+  width:50%;
+}
+.navbar-brand{
+  width:50% !important;
+}
+
+@media only screen and (max-width: 925px) {
+  .social{
+    display:none;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  #main-links{
+    font-size:85%;
+  }
+  }
+
+
+/* ######### Home Page  ############## */
+#showcase {
+  background: url("../img/showcase1.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+
+  #showcase .home-inner {
+    padding-top: 150px; }
+  #showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px; }
+  #showcase .fa {
+    color: #0D47A1;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; 
+  }
+
+#events-section .ind-event {
+  border-width: 1px;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  font-family: 'Roboto', sans-serif; }
+
+#events-section .heading-title {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400;
+  font-size: 3em; }
+
+#events-section a {
+  color: #000; }
+
+#events-section .date {
+  font-size: .85em;
+  font-family: 'Roboto', sans-serif; }
+
+#more-section .text-dark:hover {
+  color: #fff !important; }
+
+#more-section .fa-users {
+  color: #3FB618; }
+
+#more-section .fa-globe {
+  color: #2A9FD6; }
+
+#more-section .fa-key {
+  color: #ff8800; }
+
+/* ######### About Page ############# */
+#about-section-1 {
+  background-color: #fff;
+  color: #444; }
+  #about-section-1 h1 {
+    font-weight: bold; }
+
+#about-section-2, #about-section-4 {
+  background-color: #fff;
+  color: #444; }
+  #about-section-2 h2, #about-section-4 h2 {
+    font-weight: bold; }
+
+#about-section-3 h2 {
+  font-weight: bold; }
+
+#about-section-3 .fa {
+  color: #008ed6;
+  background: #aaa;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 15px; }
+
+  /* ######### Board Members Page ############# */
+#board-members-odd{
+  background-color:#f8f9fa;
+  color:#444;
+}
+
+  /* ######### Scholarship Page ############# */
+.scholarship-image{
+  width:75%;
+}
+
+  /* ######### Bylaws Page ############# */
+  .bylaws-separator{
+    border-bottom: 1px solid #000;
+  }
+
+  /* ######### Membership Page ############# */
+#showcase1 {
+  background: url("../img/membership.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #showcase1 .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #showcase1 .membership-inner{
+      padding-top:200px;
+    }
+
+    /* ######### Board Page ############# */
+#board-showcase {
+  background: url("../img/board.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #board-showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #board-showcase .board-inner{
+      padding-top:200px;
+    }
+
+      /* ######### Scholarship Page ############# */
+#scholarship-showcase {
+  background: url("../img/scholarship-showcase.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #scholarship-showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #scholarship-showcase .scholarship-inner{
+      padding-top:200px;
+    }
+
+
+      /* ######### About Page ############# */
+#about-showcase {
+  background: url("../img/aboutus.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #about-showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #about-showcase .about-inner{
+      padding-top:200px;
+    }
+
+      /* ######### Presidents Page ############# */
+#presidents-showcase {
+  background: url("../img/presidents.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #presidents-showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #presidents-showcase .presidents-inner{
+      padding-top:200px;
+    }
+
+      /* ######### Presidents Page ############# */
+#bylaws-showcase {
+  background: url("../img/bylaws.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#fff;
+}
+  #bylaws-showcase .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; }
+
+    #bylaws-showcase .bylaws-inner{
+      padding-top:200px;
+    }
+
+        

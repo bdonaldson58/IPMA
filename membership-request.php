@@ -1,5 +1,5 @@
 <?php
- include 'inc1/header.php';
+ include 'inc/header.php';
  ?>
   <!-- IN-PAGE NAVIGATION -->
 
@@ -139,5 +139,5 @@
 
 
 <?php
- include 'inc1/footer1.php';
+ include 'inc/footer.php';
  ?>

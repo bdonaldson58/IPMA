@@ -1,5 +1,5 @@
 <?php
- include 'inc1/header.php';
+ include 'inc/header.php';
  ?>
 
 <header id="board-showcase">
@@ -302,5 +302,5 @@
 </section>
 
 <?php
- include 'inc1/footer1.php';
+ include 'inc/footer.php';
  ?>
