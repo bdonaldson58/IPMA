@@ -105,7 +105,7 @@
     </div>  
     <div class="row">  
         <div class="col-md-3">
-        <img src="img/elizabeth.jpg" alt="1st Vice President - Elizabeth Blais" class="img img-fluid">
+        <img src="img/elizabeth.jpg" alt="1st Vice President - Elizabeth Blais" class="img img-fluid mb-3">
       </div>
       <div class="col-md-8">
         <h2>Elizabeth Blais, SHRM SCP, PHR, IPMA-CP</h2>
@@ -144,7 +144,7 @@
     </div>  
     <div class="row">  
         <div class="col-md-3">
-        <img src="img/crystal.jpg" alt="Second Vice President - Crystal Nolen" class="img img-fluid">
+        <img src="img/crystal.jpg" alt="Second Vice President - Crystal Nolen" class="img img-fluid mb-3">
       </div>
       <div class="col-md-8">
         <h2>Crystal Nolen, MHR, SPHR</h2>
@@ -227,7 +227,7 @@
     </div>  
     <div class="row">  
         <div class="col-md-3">
-        <img src="img/keith.jpg" alt="Secretary - Keith Stout" class="img img-fluid">
+        <img src="img/keith.jpg" alt="Secretary - Keith Stout" class="img img-fluid mb-3">
       </div>
       <div class="col-md-8">
         <h2>Keith Stout, M.ED., SPHR, SHRM-SCP, IPMA-CP</h2>
@@ -300,7 +300,77 @@
     </div>
     </div>
 </section>
-
+<!-- PAST PRESIDENTS/BOARD MEMBERS SECTION 1 -->
+<section>
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col">
+                <h2 class="mb-3"><strong>PAST PRESIDENTS / BOARD MEMBERS</strong></h2>   
+            </div>
+        </div>  
+        <div class="row">  
+            <div class="col-md-3">
+            <img src="img/brian.jpg" alt="Past Board Member - Brian Jepsen" class="img img-fluid mb-3">
+            </div>
+            <div class="col-md-8">
+            <h2>Brian Jepsen, MPA, IPMA-CP</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Human Resources Programs Manager</td>
+                    </tr>
+                    <tr>
+                        <td>Oklahoma Water Resources Board</td>
+                    </tr>
+                    <tr>
+                        <td>3800 North Classen Boulevard Oklahoma City, OK 73118</td>
+                    </tr>
+                    <tr>
+                        <td><span class="mr-2"><strong>Phone:</strong> (405)  530-8874</span>
+                        <strong>Fax:</strong> (405) 530-8900</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email:</strong> Brian.Jepsen@owrb.ok.gov</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- IMMEDIATE PAST PRESIDENT SECTION -->
+<section id="board-members-odd">
+    <div class="container">  
+        <div class="row pt-3">  
+            <div class="col-md-3">
+            <img src="img/tanara.png" alt="Immediate Past President - April Story" class="img img-fluid mb-3">
+            </div>
+            <div class="col-md-8">
+            <h2>Tanara Lang</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Director of Human Resources</td>
+                    </tr>
+                    <tr>
+                        <td>Department of Public Safety</td>
+                    </tr>
+                    <tr>
+                        <td>P.O. Box 11415 Oklahoma City, OK 73136-0415</td>
+                    </tr>
+                    <tr>
+                        <td><span class="mr-2"><strong>Phone:</strong>(405) 425-2176</span>
+                        <strong>Fax:</strong> (405) 556-9126</td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email:</strong> Tanara.Lang@dps.ok.gov</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+</section>
 <?php
  include 'inc/footer.php';
  ?>
