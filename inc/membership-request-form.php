@@ -58,28 +58,79 @@
                 #Sending the email
                   $toEmail = 'bdonaldson58@gmail.com';
                   $subject = 'Membership Request From '.$firstName." ".$lastName;
-                  $body = '<h2>Membership Request</h2>
-                          <h4 style="display:inline-block">First Name</h4><p> '.$firstName.'</p>
-                          <h4>Last Name</h4><p> '.$lastName.'</p>
-                          <h4>Company</h4><p> '.$company.'</p>
-                          <h4>Email</h4><p> '.$email.'</p>
-                          <h4>Address Line 1</h4><p> '.$addressLine1.'</p>
-                          <h4>Address Line 2</h4><p> '.$addressLine2.'</p>
-                          <h4>City</h4><p> '.$city.'</p>
-                          <h4>State</h4><p> '.$state.'</p>
-                          <h4>Zipcode</h4><p> '.$zipcode.'</p>
-                          <h4>Country</h4><p> '.$country.'</p>
-                          <h4>Phone Number</h4><p> '.$phone.'</p>
-                          <h4>Current IPMA-HR Member</h4><p> '.$memberRadios.'</p>
-                          <h4>IPMA-HR Member Number</h4><p> '.$memberNumber.'</p>
-                          <h4>Type of Membership</h4><p> '.$membershipType.'</p>
-                          <h4>Message</h4><p> '.$message.'</p>';
+                  $body = 
+                          '<h2>Membership Request</h2>
+                          <p>This is a membership request for the IPMA-HROK.  Sent from the Membership Request Form on the IPMA-HROK Wesbite.</p>
+                          <table style="border: 1px solid black;">
+                            <tr style="font-weight:bold; border: 1px solid black;">
+                              <th style="text-align:left; border: 1px solid black;">Form Question</th>
+                              <th style="text-align:left; border: 1px solid black;">Contact Infomation</th>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">First Name</td>
+                              <td style="border: 1px solid black;">'.$firstName.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">Last Name</td>
+                              <td style="border: 1px solid black;">'.$lastName.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">Company</td>
+                              <td style="border: 1px solid black;">'.$company.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">Address Line 1</td>
+                              <td style="border: 1px solid black;">'.$addressLine1.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">Address Line 2</td>
+                              <td style="border: 1px solid black;">'.$addressLine2.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">City</td>
+                              <td style="border: 1px solid black;">'.$city.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">State</td>
+                              <td style="border: 1px solid black;">'.$state.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">Zip code</td>
+                              <td style="border: 1px solid black;">'.$zipcode.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">Country</td>
+                              <td style="border: 1px solid black;">'.$country.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">Phone Number</td>
+                              <td style="border: 1px solid black;">'.$phone.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">Current IPMA-HR Member</td>
+                              <td style="border: 1px solid black;">'.$memberRadios.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">IPMA-HR Member Number</td>
+                              <td style="border: 1px solid black;">'.$memberNumber.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">Membership Type</td>
+                              <td style="border: 1px solid black;">'.$membershipType.'</td>
+                            </tr>
+                            <tr style="border: 1px solid black;">
+                              <td style="font-weight:bold; border: 1px solid black;">Message</td>
+                              <td style="border: 1px solid black;">'.$message.'</td>
+                            </tr>
+                          </table>';
                   #Setting Email Headers
-                  $headers = "MIME-Version: 1.0" . "\r\n";
+                  $headers .= "MIME-Version: 1.0" . "\r\n";
                   $headers .= "Content-Type:text/html;charset=UTF-8" . "
                       \r\n";
                   # Additional Headers
-                  $headers .= "From: " .$firstName. "<".$email.">". "\r\n";
+                  $headers .= "Reply-To: " . $firstName . "<".$email.">\r\n"; 
+                  $headers .= "Return-Path: " . $firstName ."<brendan@bdonaldson.com>\r\n"; 
+                  $headers .= "From: " .$firstName. "<brendan@bdonaldson.com>". "\r\n";
                   if(mail($toEmail, $subject, $body, $headers)){
                   # Email sent
                       $msg = 'Your email has been sent';
