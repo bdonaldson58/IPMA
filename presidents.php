@@ -1,9 +1,9 @@
 <?php
  include 'inc/header.php';
  ?>
-<header id="presidents-showcase">
+<header id="general-showcase">
     <div class="dark-overlay">
-        <div class="presidents-inner">
+        <div class="general-inner">
             <div class="container">
                 <div class="row">
                 <h1 class="mx-auto">Past Presidents</h1>

@@ -68,7 +68,7 @@
                       <ul class="dropdown-menu dropdown-menu-right">
                           <a href="bylaws.php" class="dropdown-item">Bylaws</a>
                           <a href="presidents.php" class="dropdown-item">Past Presidents</a>
-                          <a href="" class="dropdown-item">Item 3</a>
+                          <a href="resources.php" class="dropdown-item">Resources &amp; Links</a>
                           <a href="" class="dropdown-item">Item 4</a>
                           <a href="" class="dropdown-item">Item 5</a>
                           <a href="" class="dropdown-item">Item 6</a>
