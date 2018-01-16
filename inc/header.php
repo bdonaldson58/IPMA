@@ -51,7 +51,7 @@
                   <li class="nav-item dropdown">
                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Training</a>
                       <div class="dropdown-menu">
-                          <a href="" class="dropdown-item">Events</a>
+                          <a href="training-events.php" class="dropdown-item">Events</a>
                           <a href="" class="dropdown-item">Back to Basics</a>
                           <a href="" class="dropdown-item">Training Archive</a>
                       </div>
