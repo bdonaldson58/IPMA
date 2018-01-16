@@ -84,7 +84,7 @@
 							<div class="py-5">
 								<h1 class="display-4">
 									<p class="lead">If you would like to become a member, or view more information about joining IPMA-HROK, please click below. We are always looking for new members to join and contribute to our organization.</p>
-									<a href="" class="btn btn-outline-secondary">Membership</a>
+									<a href="membership-request.php" class="btn btn-outline-secondary">Membership</a>
 								</h1>
 							</div>
 						</div>

@@ -22,7 +22,7 @@
         <div class="container">
         <div class="row py-4">
         <div class="col-md-12">
-            <table class="table table-striped">
+            <table class="table table-striped table-responsive">
                 <thead>
                     <tr>
                         <th>Name</th> 
