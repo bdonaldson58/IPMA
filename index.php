@@ -58,7 +58,7 @@
 							<i class="fa fa-users fa-5x mb-3"></i>
 							<h3>Board Members</h3>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maxime provident consectetur nobis ea commodi, similique aut laboriosam dicta alias architecto, temporibus minus distinctio tempore?</p>
-							<a href="board.html" class="btn btn-outline-primary text-dark">Board Members</a>
+							<a href="board.php" class="btn btn-outline-primary text-dark">Board Members</a>
 						</div>
 						<div class="col-md-4 text-center">
 							<i class="fa fa-globe fa-5x mb-3"></i>
@@ -70,7 +70,7 @@
 							<i class="fa fa-key fa-5x mb-3"></i>
 							<h3>Training</h3>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maxime provident consectetur nobis ea commodi, similique aut laboriosam dicta alias architecto, temporibus minus distinctio tempore?</p>
-							<a href="" class="btn btn-outline-primary text-dark">Training</a>
+							<a href="training-events.php" class="btn btn-outline-primary text-dark">Training</a>
 						</div>
 					</div>			
 				</div>
@@ -100,30 +100,30 @@
                     <h1 class="heading-title py-3">UPCOMING EVENTS</h1>
                 </div>
                 <div class="col-md-6 col-sm-3 py-3">
-                    <a href="" class="btn btn-primary text-light float-right">Calendar</a>
+                    <a href="training-events.php" class="btn btn-primary text-light float-right">Calendar</a>
                 </div>
             </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <a href="">
-                            <div class="py-4 my-auto ind-event">Meeting about diversity</div>
+                        <a href="training-events.php">
+                            <div class="py-4 my-auto ind-event">Health Department Training</div>
                         </a>
-                        <div class="pt-2 date"><p><em>Nov. 5, 2017</em></p></div>	
+                        <div class="pt-2 date"><p><em>March 2, 2018</em></p></div>	
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="">
+                        <a href="training-events.php">
                             <div class="py-4 my-auto ind-event">Training Workshop</div>
                         </a>
                         <div class="pt-2 date"><p><em>Nov. 10, 2017</em></p></div>	
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="">
+                        <a href="training-events.php">
                             <div class="py-4 my-auto ind-event">Etiquette In the Workplace Dinner</div>
                         </a>
                         <div class="pt-2 date"><p><em>Nov. 16, 2017</em></p></div>	
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="">
+                        <a href="training-events.php">
                             <div class="py-4 my-auto ind-event">Training Workshop</div>
                         </a>
                         <div class="pt-2 date"><p><em>Nov. 18, 2017</em></p></div>	

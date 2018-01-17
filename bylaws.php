@@ -1,23 +1,17 @@
 <?php
+// Variables to set up the showcase section properly
+ $showcaseType = 'bylaws-showcase';
+ $showcaseTitle = 'Oklahoma Chapter International Public Management Association for Human Resources Bylaws';
+ $showcaseMessage = '';
+
+ // Included files for the navbar and the showcase
  include 'inc/header.php';
- ?>
-<header id="bylaws-showcase">
-    <div class="dark-overlay">
-        <div class="bylaws-inner">
-            <div class="container">
-                <div class="row">
-                <h1 class="text-center">Oklahoma Chapter
-        International Public Management Association for Human Resources
-        Bylaws</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+ include 'inc/showcase.php';
+?>
 
 
 <!-- ###### SECTION 1 #######-->
-<section id="about-section-1" class="pt-4">
+<section id="light-section" class="pt-4">
   <div class="container">
     <div class="row pt-2">
       <div class="col-md-12"> 
@@ -39,9 +33,9 @@
 </section>
 
 <!-- ###### Bylaws Section 1 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
   <div class="container">
-  <hr class="bylaws-separator">
+  <hr>
     <div class="row">
       <div class="col">
         <h2 class="pb-3">Article I — Name, Affiliations and Geographic Area</h2>
@@ -58,9 +52,9 @@
   </div>
 </section>
 <!-- ###### Bylaws Section 2 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
 <div class="container">
-<hr class="bylaws-separator">
+<hr>
   <div class="row">
     <div class="col">
       <h2 class="pb-3">Article II — Objectives</h2>
@@ -83,9 +77,9 @@
 </section>
 
 <!-- ###### Bylaws Section 3 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
 <div class="container">
-<hr class="bylaws-separator">
+<hr>
   <div class="row">
     <div class="col">
       <h2 class="pb-3">Article III - Types of Membership; Dues</h2>
@@ -122,9 +116,9 @@
 </section>
 
 <!-- ###### Bylaws Section 4 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
 <div class="container">
-<hr class="bylaws-separator">
+<hr>
   <div class="row">
     <div class="col">
       <h2 class="pb-3">Article IV - Officers and Board Directors; Meetings</h2>
@@ -162,9 +156,9 @@
 </section>
 
 <!-- ###### Bylaws Section 5 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
   <div class="container">
-  <hr class="bylaws-separator">
+  <hr>
     <div class="row">
       <div class="col">
         <h2 class="pb-3">Article V - Duties of Officers and Members of the Board of Directors</h2>
@@ -199,9 +193,9 @@
 </section>
 
 <!-- ###### Bylaws Section 6 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
   <div class="container">
-  <hr class="bylaws-separator">
+  <hr>
     <div class="row">
       <div class="col">
         <h2 class="pb-3">Article VI - Training Conferences and Meetings</h2>
@@ -228,9 +222,9 @@
 </section>
 
 <!-- ###### Bylaws Section 7 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
   <div class="container">
-  <hr class="bylaws-separator">
+  <hr>
     <div class="row">
       <div class="col">
         <h2 class="pb-3">Article VII - Amendments to Bylaws</h2>
@@ -260,9 +254,9 @@
 </section>
 
 <!-- ###### Bylaws Section 8 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
   <div class="container">
-  <hr class="bylaws-separator">
+  <hr>
     <div class="row">
       <div class="col">
         <h2 class="pb-3">Article VII - Chapter Liabilities</h2>
@@ -275,9 +269,9 @@
 </section>
 
 <!-- ###### Bylaws Section 9 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
   <div class="container">
-  <hr class="bylaws-separator">
+  <hr>
     <div class="row">
       <div class="col">
         <h2 class="pb-3">Article IX - Effective Date</h2>
@@ -289,7 +283,7 @@
   </div>
 </section>
 
-<section id="about-section-2" class="pt-5 pb-4">
+<section id="light-section" class="pt-5 pb-4">
   <div class="container">
     <p>Approved June 2016 by the IPMA-HROK Board of Directors and Membership.</p> 
     <p><em>Revised June 17, 2016</em></p>

@@ -1,24 +1,17 @@
 <?php
+// Variables to set up the showcase section properly
+ $showcaseType = 'general-showcase';
+ $showcaseTitle = 'Past Presidents';
+ $showcaseMessage = 'Below is a list of all of the former presidents of this organization';
+
+ // Included files for the navbar and the showcase
  include 'inc/header.php';
- ?>
-<header id="general-showcase">
-    <div class="dark-overlay">
-        <div class="general-inner">
-            <div class="container">
-                <div class="row">
-                <h1 class="mx-auto">Past Presidents</h1>
-                </div>
-                <div class="row">
-                <h5 class="mx-auto">Below is a list of all of the former presidents of this organization</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+ include 'inc/showcase.php';
+?>
 
 
-<!-- ###### SECTION #######-->
-    <section id="board-members-odd" >
+<!-- ###### SECTION 1 #######-->
+    <section id="light-section" >
         <div class="container">
         <div class="row py-4">
         <div class="col-md-12">

@@ -1,29 +1,21 @@
 <?php
+// Variables to set up the showcase section properly
+ $showcaseType = 'general-showcase';
+ $showcaseTitle = 'Training Opportunities &amp; Events';
+ $showcaseMessage = 'We would love for you to attend our training events';
+
+ // Included files for the navbar and the showcase
  include 'inc/header.php';
- ?>
-  
-<header id="general-showcase">
-    <div class="dark-overlay">
-        <div class="general-inner">
-            <div class="container">
-                <div class="row">
-                <h1 class="mx-auto">Training Opportunities &amp; Events</h1>
-                </div>
-                <div class="row">
-                <h5 class="mx-auto">We would love for you to attend our training events</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+ include 'inc/showcase.php';
+?>
 
 
 <!-- ###### TRAINING 1 #######-->
-<section id="about-section-2" class="pt-4">
+<section id="light-section" class="pt-4">
   <div class="container">
     <div class="row pb-3">
       <div class="col-md-8"> 
-        <p>Saturday, March 10, 2018</p>
+        <p>Friday, March 2, 2018</p>
         <h2 class="pb-3">Health Department Training Event</h2>
         <h4>Details</h4>
         <p>Pellentesque eget ullamcorper erat, quis egestas elit. Nam tincidunt erat sem, non pellentesque erat fermentum eu. Aenean hendrerit tortor nec rutrum fermentum. Donec tincidunt diam purus, faucibus pulvinar magna ultrices at. Quisque gravida libero tristique, viverra orci vitae, volutpat risus. Fusce scelerisque ante enim, sit amet egestas dui facilisis et. Maecenas ac purus sed lectus pulvinar molestie ut nec neque. Maecenas consequat porttitor lobortis.</p>
@@ -120,7 +112,7 @@
 </section>
 
 <!-- ###### TRAINING 3 #######-->
-<section id="about-section-2" class="pt-4">
+<section id="light-section" class="pt-4">
   <div class="container">
     <div class="row pb-3">
       <div class="col-md-8"> 

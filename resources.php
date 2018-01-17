@@ -1,28 +1,32 @@
 <?php
+// Variables to set up the showcase section properly
+ $showcaseType = 'general-showcase';
+ $showcaseTitle = 'Resources &amp; Links';
+ $showcaseMessage = 'Below are three lists of links related to the IPMA-HROK that you may find useful';
+
+ // Included files for the navbar and the showcase
  include 'inc/header.php';
- ?>
-<header id="general-showcase">
-    <div class="dark-overlay">
-        <div class="general-inner">
-            <div class="container">
-                <div class="row">
-                <h1 class="mx-auto">Resources &amp; Links</h1>
-                </div>
-                <div class="row">
-                <h5 class="mx-auto">Below are three lists of links related to the IPMA-HROK that you may find useful</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+ include 'inc/showcase.php';
+?>
 
 
-<!-- ###### SECTION #######-->
-    <section id="board-members-odd" >
+<!-- ###### BUTTON SECTION #######-->
+    <section id="light-section" >
         <div class="container">
+        <div class="row py-4" id="state">     
+          <div class="col-md-12">
+            <a href="#state" class="btn btn-primary">State Links</a>
+            <a href="#federal" class="btn btn-primary">Federal Links</a>
+            <a href="#other" class="btn btn-primary">Other Links</a>
+          </div>
+        </div>
+
+
+<!-- ###### STATE SECTION #######-->       
+        <div id="resources-tables">
           <div class="row py-4">
             <div class="col-md-12">
-              <h3><strong>State Resources &amp; Links</strong></h3>
+              <h3 id="state"><strong>State Resources &amp; Links</strong></h3>
               <table class="table table-striped table-responsive">
                 <thead>
                     <tr>
@@ -82,7 +86,7 @@
                       <td><img src="img/link-ok-investigation.jpg"></td>
                       <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, natus inventore doloremque.</a></td>
                     </tr>
-                    <tr>
+                    <tr id="federal">
                       <td><a target="_blank" href="https://www.uscis.gov/e-verify">E-Verify</a></td>
                       <td><img src="img/link-everify.jpg"></td>
                       <td>Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
@@ -91,9 +95,12 @@
             </table>
           </div>
         </div>
+
+
+<!-- ###### FEDERAL SECTION #######-->        
         <div class="row py-4">
           <div class="col-md-12">
-            <h3><strong>Federal Resources &amp; Links</strong></h3>
+            <h3 id="federal"><strong>Federal Resources &amp; Links</strong></h3>
             <table class="table table-striped table-responsive">
               <thead>
                 <tr>
@@ -128,7 +135,7 @@
                   <td><img src="img/link-ada.gif"></td>
                   <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
                 </tr>
-                <tr>
+                <tr id="other">
                   <td><a target="_blank" href="https://askjan.org/index.html">Job Accomodation Network</a></td>
                   <td><img src="img/link-jan.jpg"></td>
                   <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, nemo accusamus fugit.</td>
@@ -137,6 +144,9 @@
             </table>
         </div>
         </div>
+
+
+<!-- ###### OTHER SECTION #######-->
         <div class="row py-4">
           <div class="col-md-12">
             <h3><strong>Other Resources &amp; Links</strong></h3>
@@ -274,6 +284,7 @@
         </div>
     </div>
   </div>
+</div>
 </section>
 
 <?php

@@ -1,24 +1,16 @@
 <?php
- include 'inc/header.php';
- ?>
+// Variables to set up the showcase section properly
+ $showcaseType = 'board-showcase';
+ $showcaseTitle = 'Board Members';
+ $showcaseMessage = 'We appreciate the wonderful people who have served the OPHRA Organization';
 
-<header id="board-showcase">
-    <div class="dark-overlay">
-        <div class="board-inner">
-            <div class="container">
-                <div class="row">
-                <h1 class="mx-auto">Board Members</h1>
-                </div>
-                <div class="row">
-                <h5 class="mx-auto">We appreciate the wonderful people who have served the OPHRA Organization</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+ // Included files for the navbar and the showcase
+ include 'inc/header.php';
+ include 'inc/showcase.php';
+?>
 
 <!-- ###### PRESIDENT SECTION #######-->
-    <section id="board-members-odd" >
+    <section id="light-section" >
         <div class="container pt-3">
     <div class="row" >
         <h2 class="mb-3"><strong>PRESIDENT</strong></h2>
@@ -96,7 +88,7 @@
 </section>
 
 <!-- ###### FIRST VICE PRESIDENT SECTION #######-->
-<section id="board-members-odd">
+<section id="light-section">
     <div class="container">
 <div class="row pt-3">
         <div class="col">
@@ -174,7 +166,7 @@
 </section>
 
 <!-- TREASURER SECTION -->
-<section id="board-members-odd">
+<section id="light-section">
     <div class="container">
     <div class="row pt-3">
         <div class="col">
@@ -260,7 +252,7 @@
   </div>
 </section> 
 <!-- IMMEDIATE PAST PRESIDENT SECTION -->
-<section id="board-members-odd">
+<section id="light-section">
     <div class="container">
         <div class="row pt-3">
             <div class="col">
@@ -339,7 +331,7 @@
     </div>
 </section>
 <!-- IMMEDIATE PAST PRESIDENT SECTION -->
-<section id="board-members-odd">
+<section id="light-section">
     <div class="container">  
         <div class="row pt-3">  
             <div class="col-md-3">

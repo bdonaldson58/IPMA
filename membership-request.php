@@ -1,26 +1,20 @@
 <?php
- require 'inc/membership-request-form.php';
- include 'inc/header.php';
-?>
-  <!-- IN-PAGE NAVIGATION -->
+// Variables to set up the showcase section properly
+ $showcaseType = 'form-showcase';
+ $showcaseTitle = 'Membership Request';
+ $showcaseMessage = 'Please fill out the form below, we would love for you to join';
 
-<header id="showcase1">
-    <div class="dark-overlay">
-        <div class="membership-inner">
-            <div class="container">
-                <div class="row">
-                <h1 class="mx-auto">Membership Request</h1>
-                </div>
-                <div class="row">
-                <h5 class="mx-auto">Please fill out the form below, we would love for you to join</h5>
-                </div>
-            </div>
-        </div>
-        </div>
-</header>
+ // Included files for the navbar and the showcase
+ include 'inc/header.php';
+ include 'inc/showcase.php';
+
+// Required for the form to send email
+ require 'inc/membership-request-form.php';
+?>
+
 
 <!-- ###### SECTION 1 #######-->
-<section id="about-section-1" class="pt-4">
+<section id="light-section" class="pt-4">
   <div class="container">
   <div class="row">
   

@@ -1,25 +1,16 @@
 <?php
+// Variables to set up the showcase section properly
+ $showcaseType = 'about-showcase';
+ $showcaseTitle = 'About IPMA-HROK';
+ $showcaseMessage = 'Please read below to learn more about our organization';
+
+ // Included files for the navbar and the showcase
  include 'inc/header.php';
- ?>
-  <!-- IN-PAGE NAVIGATION -->
-<header id="about-showcase">
-    <div class="dark-overlay">
-        <div class="about-inner">
-            <div class="container">
-                <div class="row">
-                <h1 class="mx-auto">About IPMA-HROK</h1>
-                </div>
-                <div class="row">
-                <h5 class="mx-auto">Please read below to learn more about our organization</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-
+ include 'inc/showcase.php';
+?>
+  
 <!-- ###### SECTION 1 #######-->
-<section id="about-section-2" class="pt-4">
+<section id="light-section" class="pt-4">
   <div class="container">
     <div class="row">
       <div class="col"> 
@@ -31,7 +22,7 @@
 </section>
 
 <!-- ###### SECTION 2 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -48,11 +39,11 @@
 </section>
 
 <!-- ###### SECTION 3 #######-->
-<section id="about-section-3" class="py-4">
+<section id="checkmarks" class="py-4">
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2 class="pb-3">Member Benefits</h2>
+        <h2 class="pb-3"><strong>Member Benefits</strong></h2>
       </div>
     </div>
     <div class="row">
@@ -113,7 +104,7 @@
 </section>
 
 <!-- ###### SECTION 4 #######-->
-<section id="about-section-4" class="py-4">
+<section id="light-section" class="py-4">
     <div class="container">
       <div class="row">
         <div class="col">

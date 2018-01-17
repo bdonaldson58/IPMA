@@ -1,24 +1,16 @@
 <?php
+// Variables to set up the showcase section properly
+ $showcaseType = 'scholarship-showcase';
+ $showcaseTitle = 'Ron E. Wilson Memorial Scholarship';
+ $showcaseMessage = 'In memoriam and to honor our colleague and friend, Ron Wilson, the IPMA-HR Oklahoma Chapter  renamed our chapter scholarship to The  Ron E.  Wilson  Memorial Scholarship.';
+
+ // Included files for the navbar and the showcase
  include 'inc/header.php';
- ?>
-  <!-- IN-PAGE NAVIGATION -->
-<header id="scholarship-showcase">
-    <div class="dark-overlay">
-        <div class="scholarship-inner">
-            <div class="container">
-                <div class="row">
-                <h1 class="mx-auto">Ron E. Wilson Memorial Scholarship</h1>
-                </div>
-                <div class="row">
-                <p class="text-center">In memoriam and to honor our colleague and friend, Ron Wilson, the IPMA-HR Oklahoma Chapter  renamed our chapter scholarship to The  Ron E.  Wilson  Memorial Scholarship.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+ include 'inc/showcase.php';
+?>
 
 <!-- ###### SECTION 1 #######-->
-<section id="about-section-1" class="pt-4 pb-4">
+<section id="light-section" class="pt-4 pb-4">
   <div class="container">
     <div class="row pt-2">
       <div class="col-md-7"> 
@@ -34,7 +26,7 @@
 </section>
 
 <!-- ###### SECTION 3 #######-->
-<section id="about-section-3" class="pt-4 pb-3">
+<section id="checkmarks" class="pt-4 pb-3">
 <div class="container">
 <div class="row">
 <h2 class="mx-auto">2017 Recipient</h2>
@@ -54,7 +46,7 @@
 </section>
 
 <!-- ###### SECTION 2 #######-->
-<section id="about-section-2" class="pt-1 pb-4">
+<section id="light-section" class="pt-1 pb-4">
   <div class="container">
     <div class="row">
       <div class="col">
