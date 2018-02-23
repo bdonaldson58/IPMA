@@ -156,8 +156,8 @@
                 </label>
               </div>  
             <div class="form-group mt-3">
-              <label for="membershipRequest"><strong>Anything else you would like for us to know?</strong></label>
-              <textarea class="form-control" id="membershipRequest" rows="4" name="message"></textarea>
+              <label><strong>Anything else you would like for us to know?</strong></label>
+              <textarea class="form-control" rows="4" name="message"></textarea>
             </div>
             <div class="row mb-5">
                 <div class="col">

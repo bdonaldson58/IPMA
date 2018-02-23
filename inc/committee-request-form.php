@@ -26,7 +26,7 @@
         $phone = htmlspecialchars($_POST['phone']);
         $message = htmlspecialchars($_POST['message']);
         $memberRadios = htmlspecialchars($_POST['memberRadios']);
-        $committeeType = htmlspecialchars($_POST['membershipType']);
+        $committeeType = htmlspecialchars($_POST['committeeType']);
 
     
 /*      Checking required fields
@@ -56,10 +56,10 @@
             } else {
                 #Sending the email
                   $toEmail = 'bdonaldson58@gmail.com';
-                  $subject = 'Membership Request From '.$firstName." ".$lastName;
+                  $subject = 'Committee Joining Request From '.$firstName." ".$lastName;
                   $body = 
-                          '<h2>Membership Request</h2>
-                          <p>This is a membership request for the IPMA-HROK.  Sent from the Membership Request Form on the IPMA-HROK Wesbite.</p>
+                          '<h2>Joining a Committee Request</h2>
+                          <p>This is a membership request for the IPMA-HROK.  Sent from the Joing a Committee Form on the IPMA-HROK Wesbite.</p>
                           <table style="border: 1px solid black;">
                             <tr style="font-weight:bold; border: 1px solid black;">
                               <th style="text-align:left; border: 1px solid black;">Form Question</th>
@@ -146,6 +146,7 @@
                       $message = '';
                       $memberRadios = '';
                       $committeeType = '';
+                      $message = '';
 
 
                   } else {

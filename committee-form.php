@@ -28,7 +28,7 @@
   </div>
     <div class="row pt-2">
       <div class="col-md-12">
-        <form action="membership-request-form.php" method="post">
+        <form action="committee-request-form.php" method="post">
             <div class="row mt-1">
                 <div class="col">
                     <label><i>All required fields marked with a &#42;</i></label>
@@ -169,7 +169,7 @@
               </div>  
             <div class="form-group mt-3">
               <label for="membershipRequest"><strong>Anything else you would like for us to know?</strong></label>
-              <textarea class="form-control" id="membershipRequest" rows="4" name="message"></textarea>
+              <textarea class="form-control" id="membershipRequest"  value="<?php echo isset($_POST['message']) ? $addressLine1 : ''; ?>" rows="4" name="message"></textarea>
             </div>
             <div class="row mb-5">
                 <div class="col">

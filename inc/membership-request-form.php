@@ -152,6 +152,7 @@
                       $memberRadios = '';
                       $membershipType = '';
                       $memberNumber = '';
+                      $message = '';
 
 
                   } else {
