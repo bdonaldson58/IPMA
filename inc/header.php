@@ -74,8 +74,8 @@
                           <a href="bylaws.php" class="dropdown-item">Bylaws</a>
                           <a href="presidents.php" class="dropdown-item">Past Presidents</a>
                           <a href="resources.php" class="dropdown-item">Resources &amp; Links</a>
-                          <a href="" class="dropdown-item">Item 5</a>
-                          <a href="" class="dropdown-item">Item 6</a>
+                          <a href="committees.php" class="dropdown-item">Committee Information</a>
+                          <a href="committee-form.php" class="dropdown-item">Join a Committee</a>
                       </ul>
                   </li>
               </ul>
