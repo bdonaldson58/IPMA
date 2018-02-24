@@ -63,7 +63,7 @@
                   <li class="nav-item dropdown">
                       <a href="membership-info.php" class="nav-link dropdown-toggle" data-toggle="dropdown">Membership</a>
                       <div class="dropdown-menu">
-                          <a href="" class="dropdown-item">Information</a>
+                          <a href="membership-information.php" class="dropdown-item">Information</a>
                           <a href="membership-request.php" class="dropdown-item">Membership Request</a>
                       </div>
                   </li> 
