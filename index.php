@@ -15,7 +15,7 @@
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="p-4 align-self-end">
-                                    <strong>OUR MISSION:</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam eum voluptates vel dicta illum obcaecati velit quas nemo nulla saepe.
+                                    <strong>OUR MISSION:</strong> To provide human resource leadership and advocacy, professional development, information and services to enhance organizational and individual performance in the public sector.
                                 </div> 
                             </div>
                             <div class="d-flex flex-row">
@@ -23,7 +23,7 @@
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="p-4 align-self-end">
-                                    <strong>OUR VISION:</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam eum voluptates vel dicta illum obcaecati velit quas nemo nulla saepe.
+                                    <strong>OUR VISION:</strong> To be the leading association for public human resources with the State of Oklahoma.
                                 </div>
                             </div>
                             <div class="d-flex flex-row">
@@ -31,7 +31,7 @@
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="p-4 align-self-end">
-                                    <strong>OUR GOALS:</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam eum voluptates vel dicta illum obcaecati velit quas nemo nulla saepe.
+                                    <strong>OUR GOALS: </strong>Become a leading voice for public sector HR on government affairs, conduct cutting edge study groups and best in class benchmarking, and increase participation in professional development classes.
                                 </div>
                             </div>
                         </div>
@@ -57,19 +57,20 @@
 						<div class="col-md-4 text-center">
 							<i class="fa fa-users fa-5x mb-3"></i>
 							<h3>Board Members</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maxime provident consectetur nobis ea commodi, similique aut laboriosam dicta alias architecto, temporibus minus distinctio tempore?</p>
+							<p>We value and appreciate everything our board members do for our organization.  Click here to learn more about each one of our members and their role within the organization.
+                            </p>
 							<a href="board.php" class="btn btn-outline-primary text-dark">Board Members</a>
 						</div>
 						<div class="col-md-4 text-center">
 							<i class="fa fa-globe fa-5x mb-3"></i>
 							<h3>Committees</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maxime provident consectetur nobis ea commodi, similique aut laboriosam dicta alias architecto, temporibus minus distinctio tempore?</p>
+							<p>We have many different committees that make up the IPMA-HROK organization. Click here to find out more about what each committee does and how you can join a committee that is of interest to you. </p>
 							<a href="" class="btn btn-outline-primary text-dark">Committees</a>
 						</div>
 						<div class="col-md-4 text-center">
 							<i class="fa fa-key fa-5x mb-3"></i>
 							<h3>Training</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maxime provident consectetur nobis ea commodi, similique aut laboriosam dicta alias architecto, temporibus minus distinctio tempore?</p>
+							<p>Training is a very important aspect of the IPMA-HROK.  We offer leadership training as well as networking opportunites specific to your trade.  Click here to find an upcoming event.</p>
 							<a href="training-events.php" class="btn btn-outline-primary text-dark">Training</a>
 						</div>
 					</div>			

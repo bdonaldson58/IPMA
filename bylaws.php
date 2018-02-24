@@ -38,7 +38,7 @@
   <hr>
     <div class="row">
       <div class="col">
-        <h2 class="pb-3">Article I — Name, Affiliations and Geographic Area</h2>
+        <h2 class="pb-3">Article I - Name, Affiliations and Geographic Area</h2>
         <h5><strong>Section 1.</strong></h5>
         <p>
         This association shall be known as the Oklahoma Chapter of the International Public Management Association for Human Resources (IPMA-HR) (hereinafter referred to as the Oklahoma Chapter, formerly the Oklahoma Public Human Resources Association [OPHRA] and the Oklahoma Public Personnel Association [OPPA]), which was founded in 1976 and is the state chapter of the International Public Management Association-HR (IPMA-HR). The Oklahoma Chapter shall maintain a minimum of five (5) IPMA-HR members in order to remain an IPMA-HR chapter.
@@ -57,7 +57,7 @@
 <hr>
   <div class="row">
     <div class="col">
-      <h2 class="pb-3">Article II — Objectives</h2>
+      <h2 class="pb-3">Article II - Objectives</h2>
       <h5>The objectives of the Oklahoma Chapter include:</h5>
       <ul> 
         <li>Providing professional support and a forum for persons engaged in public human resources (HR) administration and/or employee/labor relations to discuss current issues within member jurisdictions and to provide a medium for mutual self-improvement.</li>

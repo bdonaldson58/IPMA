@@ -44,6 +44,8 @@
                     <div class="dropdown-menu">
                         <a href="aboutus.php" class="dropdown-item">About Us</a>
                         <a href="mission.php" class="dropdown-item">Mission, Vision &amp; Goals</a>
+                        <a href="chronology.php" class="dropdown-item">Chronology</a>
+                        <a href="bylaws.php" class="dropdown-item">Bylaws</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -52,13 +54,8 @@
                 <li class="nav-item">
                     <a href="scholarship.php" class="nav-link">Scholarship</a>
                 </li>  
-                  <li class="nav-item dropdown">
-                      <a href="training-events.php" class="nav-link dropdown-toggle" data-toggle="dropdown">Training</a>
-                      <div class="dropdown-menu">
-                          <a href="training-events.php" class="dropdown-item">Events</a>
-                          <a href="" class="dropdown-item">Back to Basics</a>
-                          <a href="" class="dropdown-item">Training Archive</a>
-                      </div>
+                  <li class="nav-item">
+                      <a href="training-events.php" class="nav-link">Training</a>        
                   </li> 
                   <li class="nav-item dropdown">
                       <a href="membership-info.php" class="nav-link dropdown-toggle" data-toggle="dropdown">Membership</a>
@@ -71,11 +68,11 @@
                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More</a>
                       <ul class="dropdown-menu dropdown-menu-right">
                           <a href="contactus.php" class="dropdown-item">Contact Us</a>
-                          <a href="bylaws.php" class="dropdown-item">Bylaws</a>
                           <a href="presidents.php" class="dropdown-item">Past Presidents</a>
                           <a href="resources.php" class="dropdown-item">Resources &amp; Links</a>
                           <a href="committees.php" class="dropdown-item">Committee Information</a>
-                          <a href="committee-form.php" class="dropdown-item">Join a Committee</a>
+                          <a href="committee-form.php" class="dropdown-item">Join a Committee</a>         
+                          <a href="faq.php" class="dropdown-item">FAQ</a>
                       </ul>
                   </li>
               </ul>

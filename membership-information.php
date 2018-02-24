@@ -114,7 +114,7 @@
               <i class="fa fa-check"></i>
             </div>
             <div class="align-self-end">
-                We offer leadership training and networking opportunities specifict to your trade.
+                We offer leadership training and networking opportunities specific to your trade.
             </div>
           </div>
           <div class="d-flex flex-row mb-2">
@@ -212,9 +212,9 @@
         <ul class="list-unstyled"><strong><li>IPMA-HR member is free; non member is $10  </li>  </strong></ul>
         <h4>Organizational Membership </h4>
         <ul>
-          <li><strong>1 – 2 staff: IPMA-HR member is $40; non member is $65 </strong></li>
-          <li><strong>3 – 5 staff: IPMA-HR member is $60; non member is $85 </strong></li>
-          <li><strong>6 – 10 staff: IPMA-HR member is $80; non member is $130 </strong></li>
+          <li><strong>1 &#45; 2 staff: IPMA-HR member is $40; non member is $65 </strong></li>
+          <li><strong>3 &#45; 5 staff: IPMA-HR member is $60; non member is $85 </strong></li>
+          <li><strong>6 &#45; 10 staff: IPMA-HR member is $80; non member is $130 </strong></li>
           <li><strong>11+ staff: IPMA-HR member is $110; non member is $160</strong></li>
         </ul>
         </div>
