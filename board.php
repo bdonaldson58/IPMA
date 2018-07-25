@@ -10,63 +10,23 @@
 ?>
 
 <!-- ###### PRESIDENT SECTION #######-->
-    <section id="light-section" >
-        <div class="container pt-3">
-    <div class="row" >
-        <h2 class="mb-3"><strong>PRESIDENT</strong></h2>
-    </div>
-    <div class="row mb-3">
-        <div class="col-md-3">  
-            <img src="img/jake.jpg" alt="President - Jake Smith" class="img img-fluid">
-        </div>
-        <div class="col-md-8">
-            <h2>Jake Smith MPA, IPMA-SCP, SHRM-SCP</h2>
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td>Director of Talent Management</td>
-                    </tr>
-                    <tr>
-                        <td>Capital Management</td>
-                    </tr>
-                    <tr>
-                        <td>Office of Management and Enterprise Services</td>
-                    </tr>
-                    <tr>
-                        <td>Will Rogers Building - 2401 N. Lincoln Blvd. Oklahoma City, OK 73105</td>
-                    </tr>
-                    <tr>
-                        <td><span class="mr-2"><strong>Phone:</strong> (405) 521-6327</span>
-                        <strong>Fax:</strong> (405) 521-6308</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Email:</strong> jacob.smith@omes.ok.gov</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    </div>
-</section>
-
-<!-- ###### PRESIDENT-ELECT SECTION #######-->
-<section>
+<section id="light-section">
     <div class="container">
     <div class="row pt-3">
         <div class="col">
-            <h2 class="mb-3"><strong>PRESIDENT-ELECT</strong></h2>
+            <h2 class="mb-3"><strong>PRESIDENT</strong></h2>
         </div>
     </div>
     <div class="row">
       <div class="col-md-3">   
-        <img src="img/tommi.jpg" alt="President Elect - Tommie Ledoux" class="img img-fluid">
+        <img src="img/tommi.jpg" alt="President - Tommie Ledoux" class="img img-fluid">
     </div>
         <div class="col-md-9">
-            <h2>Tommi Ledoux, MHR</h2>
+            <h2>Tommi Ledoux, MHR, IPMA-SCP</h2>
             <table class="table">
                 <tbody>
                     <tr>
-                        <td>Human Resources Manager III - HR Services</td>
+                        <td>Human Resources Manager III - Total Compensation</td>
                     </tr>
                     <tr>
                         <td>Oklahoma Department of Human Services</td>
@@ -87,6 +47,44 @@
     </div>
 </section>
 
+<!-- ###### PRESIDENT ELECT SECTION #######-->
+    <section>
+        <div class="container pt-3">
+    <div class="row" >
+        <h2 class="mb-3"><strong>PRESIDENT ELECT</strong></h2>
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-3">  
+            <img src="img/elizabeth.jpg" alt="Elizabeth" class="img img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h2>Elizabeth Blais, SHRM-SCP, PHR, IPMA-CP</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Human Resources Programs Manager</td>
+                    </tr>
+                    <tr>
+                        <td>Oklahoma Department of Transportation</td>
+                    </tr>
+                    <tr>
+                        <td>200 NE 21st St. Oklahoma City, OK 73105</td>
+                    </tr>
+                    <tr>
+                        <td><span class="mr-2"><strong>Phone:</strong> (405) 522-4693</span>
+                        <strong>Fax:</strong> (405) 521-6821</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email:</strong> eblais@odot.org</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+</section>
+
+
 <!-- ###### FIRST VICE PRESIDENT SECTION #######-->
 <section id="light-section">
     <div class="container">
@@ -96,47 +94,8 @@
         </div>
     </div>  
     <div class="row">  
-        <div class="col-md-3">
-        <img src="img/elizabeth.jpg" alt="1st Vice President - Elizabeth Blais" class="img img-fluid mb-3">
-      </div>
-      <div class="col-md-8">
-        <h2>Elizabeth Blais, SHRM SCP, PHR, IPMA-CP</h2>
-        <table class="table">
-          <tbody>
-              <tr>
-                  <td>Human Resources Programs Manager</td>
-              </tr>
-              <tr>
-                  <td>Oklahoma Department of Transportation</td>
-              </tr>
-              <tr>
-                  <td>200 NE 21st St. Oklahoma City, OK 73105</td>
-              </tr>
-              <tr>
-                  <td><span class="mr-2"><strong>Phone:</strong> (405) 521-4693</span>
-                  <strong>Fax:</strong> (405) 521-6821</td>
-              </tr>
-              <tr>
-                  <td><strong>Email:</strong> eblais@odot.org</td>
-              </tr>
-          </tbody>
-        </table>
-    </div>
-  </div>
-    </div>
-</section>
-
-<!-- SECOND VICE PRESIDENT SECTION -->
-<section>
-    <div class="container">
-    <div class="row pt-3">
-        <div class="col">
-            <h2 class="mb-3"><strong>SECOND VICE PRESIDENT</strong></h2>   
-        </div>
-    </div>  
-    <div class="row">  
-        <div class="col-md-3">
-        <img src="img/crystal.jpg" alt="Second Vice President - Crystal Nolen" class="img img-fluid mb-3">
+        <div class="col-md-3"> 
+        <img src="img/crystal.jpg" alt="1st Vice President - Crystal Nolen" class="img img-fluid mb-3">
       </div>
       <div class="col-md-8">
         <h2>Crystal Nolen, MHR, SPHR</h2>
@@ -165,6 +124,48 @@
     </div>
 </section>
 
+<!-- SECOND VICE PRESIDENT SECTION -->
+<section>
+    <div class="container">
+    <div class="row pt-3">
+        <div class="col">
+            <h2 class="mb-3"><strong>SECOND VICE PRESIDENT</strong></h2>   
+        </div>
+    </div>  
+    <div class="row">  
+        <div class="col-md-3">
+        <img src="img/keith.jpg" alt="Second Vice President - Keith Stout" class="img img-fluid mb-3">
+      </div>
+      <div class="col-md-8">
+        <h2>Keith Stout, M.ED., SPHR, SHRM-SCP, IPMA-CP</h2>
+        <table class="table">
+          <tbody>
+              <tr>
+                  <td>Human Resources Programs Manager</td>
+              </tr>
+              <tr>
+                  <td>Oklahoma Department of Agriculture, Food, and Forestry</td>
+              </tr>
+              <tr>
+                  <td>Oklahoma Horse Racing Commission</td>
+              </tr>
+              <tr>
+                  <td>2800 N Lincoln Boulevard Oklahoma City, OK 73105</td>
+              </tr>
+              <tr>
+                  <td><span class="mr-2"><strong>Phone:</strong> (405) 530-3145</span>
+                  <strong>Fax:</strong> (405) 530-3845</td>
+              </tr>
+              <tr>
+                  <td><strong>Email:</strong> Keith.Stout@ag.ok.gov</td>
+              </tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+    </div>
+</section>
+
 <!-- TREASURER SECTION -->
 <section id="light-section">
     <div class="container">
@@ -175,7 +176,7 @@
     </div>  
     <div class="row">  
         <div class="col-md-3">
-        <img src="img/melissa.jpg" alt="Treasurer - Melissa Jolly" class="img img-fluid">
+        <img src="img/melissa.jpg" al id="light-section" t="Treasurer - Melissa Jolly" class="img img-fluid">
       </div>
       <div class="col-md-8">
         <h2>Melissa Jolly, IPMA-CP, SHRM-SCP</h2>
@@ -219,30 +220,27 @@
     </div>  
     <div class="row">  
         <div class="col-md-3">
-        <img src="img/keith.jpg" alt="Secretary - Keith Stout" class="img img-fluid mb-3">
+        <img src="img/keith.jpg" alt="Secretary - Susan Miller" class="img img-fluid mb-3">
       </div>
       <div class="col-md-8">
-        <h2>Keith Stout, M.ED., SPHR, SHRM-SCP, IPMA-CP</h2>
+        <h2>Susan Miller, IPMA-SCP</h2>
         <table class="table">
           <tbody>
               <tr>
-                  <td>Human Resources Programs Manager</td>
+                  <td>Human Resources Management Specialist IV</td>
               </tr>
               <tr>
-                  <td>Oklahoma Department of Agriculture, Food, and Forestry</td>
+                  <td>Oklahoma Department of Department of Rehabilitation</td>
               </tr>
               <tr>
-                  <td>Oklahoma Horse Racing Commission</td>
+                  <td>3535 NW 58th Street, 2nd Floor HR Unit Oklahoma City, OK 73112</td>
               </tr>
               <tr>
-                  <td>2800 N. Lincoln Boulevard Oklahoma City, OK 73105</td>
-              </tr>
-              <tr>
-                  <td><span class="mr-2"><strong>Phone:</strong> (405) 522-5772</span>
+                  <td><span class="mr-2"><strong>Phone:</strong> (405) 9513467</span>
                     </td>
               </tr>
               <tr>
-                  <td><strong>Email:</strong> Keith.Stout@ag.ok.gov
+                  <td><strong>Email:</strong> SMiller@okdrs.gov
                 </td>
               </tr>
           </tbody>
@@ -251,40 +249,38 @@
   </div>
   </div>
 </section> 
-<!-- IMMEDIATE PAST PRESIDENT SECTION -->
+
 <section id="light-section">
-    <div class="container">
-        <div class="row pt-3">
-            <div class="col">
-                <h2 class="mb-3"><strong>IMMEDIATE PAST PRESIDENT</strong></h2>   
-            </div>
-        </div>  
-        <div class="row">  
-            <div class="col-md-3">
-            <img src="img/april.jpg" alt="Immediate Past President - April Story" class="img img-fluid">
-            </div>
-            <div class="col-md-8">
-            <h2>April Story, CPM, CPP</h2>
+        <div class="container pt-3">
+    <div class="row" >
+        <h2 class="mb-3"><strong>IMMEDIATE PAST PRESIDENT</strong></h2>
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-3">  
+            <img src="img/jake.jpg" alt="Immediate Past President - Jake Smith" class="img img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h2>Jake Smith MPA, IPMA-SCP, SHRM-SCP</h2>
             <table class="table">
                 <tbody>
                     <tr>
-                        <td>Human Resources Director</td>
+                        <td>Director of Talent Management</td>
                     </tr>
                     <tr>
-                        <td>Supreme Court of Oklahoma</td>
+                        <td>Capital Management</td>
                     </tr>
                     <tr>
-                        <td>Administrative Office of the Courts</td>
+                        <td>Office of Management and Enterprise Services</td>
                     </tr>
                     <tr>
-                        <td>2100 N. Lincoln, Suite 3 Oklahoma City, OK 73105</td>
+                        <td>Will Rogers Building - 2401 N. Lincoln Blvd. Oklahoma City, OK 73105</td>
                     </tr>
                     <tr>
-                        <td><span class="mr-2"><strong>Phone:</strong> (405) 556-9687</span>
-                        <strong>Fax:</strong> (405) 556-9126</td></td>
+                        <td><span class="mr-2"><strong>Phone:</strong> (405) 521-6327</span>
+                        <strong>Fax:</strong> (405) 521-6308</td>
                     </tr>
                     <tr>
-                        <td><strong>Email:</strong> April.Story@oscn.net</td>
+                        <td><strong>Email:</strong> jacob.smith@omes.ok.gov</td>
                     </tr>
                 </tbody>
             </table>
@@ -292,6 +288,8 @@
     </div>
     </div>
 </section>
+
+
 <!-- PAST PRESIDENTS/BOARD MEMBERS SECTION 1 -->
 <section>
     <div class="container">
@@ -356,6 +354,41 @@
                     </tr>
                     <tr>
                         <td><strong>Email:</strong> Tanara.Lang@dps.ok.gov</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+</section>
+<section id="light-section">
+    <div class="container">
+        <div class="row pt-3">  
+            <div class="col-md-3">
+            <img src="img/april.jpg" alt="April Story" class="img img-fluid">
+            </div>
+            <div class="col-md-8">
+            <h2>April Story, CPM, CPP</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Human Resources Director</td>
+                    </tr>
+                    <tr>
+                        <td>Supreme Court of Oklahoma</td>
+                    </tr>
+                    <tr>
+                        <td>Administrative Office of the Courts</td>
+                    </tr>
+                    <tr>
+                        <td>2100 N. Lincoln, Suite 3 Oklahoma City, OK 73105</td>
+                    </tr>
+                    <tr>
+                        <td><span class="mr-2"><strong>Phone:</strong> (405) 556-9687</span>
+                        <strong>Fax:</strong> (405) 556-9126</td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email:</strong> April.Story@oscn.net</td>
                     </tr>
                 </tbody>
             </table>

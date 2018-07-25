@@ -174,9 +174,9 @@
         <h4>Organizational Membership </h4>
         <p>Available for a specified number of participants employed by a public entity. For an individual to be considered an OPHRA member by way of an organizational membership, he or she must be named by the organization as a participant. Such members are eligible to vote and/or hold office.</p>
         <ul>
-          <li><strong>1 – 2 staff: IPMA-HR member is $40; non member is $65 </strong></li>
-          <li><strong>3 – 5 staff: IPMA-HR member is $60; non member is $85 </strong></li>
-          <li><strong>6 – 10 staff: IPMA-HR member is $80; non member is $130 </strong></li>
+          <li><strong>1 - 2 staff: IPMA-HR member is $40; non member is $65 </strong></li>
+          <li><strong>3 - 5 staff: IPMA-HR member is $60; non member is $85 </strong></li>
+          <li><strong>6 - 10 staff: IPMA-HR member is $80; non member is $130 </strong></li>
           <li><strong>11+ staff: IPMA-HR member is $110; non member is $160</strong></li>
         </ul>
         <h4>Affiliate/Sponsor Membership</h4>

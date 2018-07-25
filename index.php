@@ -34,18 +34,12 @@
                                     <strong>OUR GOALS: </strong>Become a leading voice for public sector HR on government affairs, conduct cutting edge study groups and best in class benchmarking, and increase participation in professional development classes.
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card bg-primary text-centered card-form">
-                                <div class="card-header text-dark bg-light">
-                                    <h4>President's Message</h4>
-                                </div>
-                                <div class="card-body bg-primary">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem temporibus architecto porro qui voluptates. Consequatur earum ipsam repellendus dolor voluptas Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, in non. Voluptatibus repellat velit eligendi sunt sapiente ullam voluptates eos.</p>
-                                </div>
-                            </div>
-                        </div>
+                        </div>  
+                        <div class="col-md-5 pt-5">  
+                        <img src="img/ipma-2019.jpg" class="img img-fluid">
+                    </div>                 
                     </div>
+
                 </div>
             </div>
         </div>
@@ -65,7 +59,7 @@
 							<i class="fa fa-globe fa-5x mb-3"></i>
 							<h3>Committees</h3>
 							<p>We have many different committees that make up the IPMA-HROK organization. Click here to find out more about what each committee does and how you can join a committee that is of interest to you. </p>
-							<a href="" class="btn btn-outline-primary text-dark">Committees</a>
+							<a href="committees.php" class="btn btn-outline-primary text-dark">Committees</a>
 						</div>
 						<div class="col-md-4 text-center">
 							<i class="fa fa-key fa-5x mb-3"></i>
@@ -77,16 +71,34 @@
 				</div>
 			</section>
 
-    <!-- MEMBERSHIP SECTION -->
-    <section id="membership-section">
-				<div class="container">
+    <!-- PRESIDENT'S MESSAGE SECTION -->
+    <section id="events-section">
+				<div class="container-fluid">
 					<div class="row">
-						<div class="col text-center">
-							<div class="py-5">
-								<h1 class="display-4">
-									<p class="lead">If you would like to become a member, or view more information about joining IPMA-HROK, please click below. We are always looking for new members to join and contribute to our organization.</p>
-									<a href="membership-request.php" class="btn btn-outline-secondary">Membership</a>
-								</h1>
+						<div class="col">
+							<div class="py-5 px-5">
+                            <h1 class="heading-title py-3">PRESIDENT'S MESSAGE</h1>
+									<p class="lead">The Oklahoma Chapter of the International Public Management Association for Human Resources (IPMA-HROK) is devoted to providing relevant information on human resources topics and stimulating networking opportunities to public sector human resources management professionals across the state of Oklahoma.  IPMA-HROK is committed to advancing the capabilities of all human resources management professionals to ensure that HR gets a seat at the table when it comes to the management and development of public sector employees.  IPMA-HROK does this by providing resources through our quarterly training conferences.</p>
+
+                                    <p class="lead">
+                                    Along with the great training conferences IPMA-HROK provides, I’m excited to tell you the IPMA-HR Southern Region Conference is coming to Oklahoma City in 2019. The 2019 IPMA Southern Region Conference will be held at the historical Skirvin Hotel on April 14-17, 2019.  The Developing Competencies for HR Success will also be offered for those interested in obtaining their IPMA-SCP certification. 
+                                    </p>
+
+                                    <p class="lead">
+                                    If you have any questions, ideas, or if you wish to serve on one of IPMA-HROK’s committees, our board members are available to assist you.  I’m looking forward to a great year serving as President of IPMA-HROK.</p>
+									</p>
+                                <div class="row">
+                                    <div class="col-md-1">  
+                                        <img src="img/tommi.jpg" class="img img-fluid">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="lead font-italic">
+                                        Tommi Ledoux<br>
+                                        IPMA-HROK President<br>
+                                        2018-2019
+                                        </p>
+                                    </div>
+                                </div>
 							</div>
 						</div>
 					</div>
@@ -133,6 +145,49 @@
             </div>
         </div>
     </section>
+    <!-- AFFILIATES SECTION -->
+    <section id="events-section">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col">
+                            <h1 class="heading-title py-3">OUR AFFILIATES</h1>	
+                            <div class="container">	
+                                <div class="row">
+                                <p>We are affiliated with the international public management association for Human Resources (Southern Region Chapter), as well as the IPMA-HR Organization. Please click the buttons below to go to their website and find out more information about these wonderful organizations.
+                                </div>		
+                                <div class="row pb-5">
+                                    <div class="col-md-6 text-center">
+                                    <img src="img/southern-region.jpg" class="img img-fluid"><br>
+                                    <a href="http://www.ipmahrsouthern.org" target="_blank" class="btn btn-outline-secondary mt-3 text-light">Click Here
+                        
+                                    </a>
+                                    </div>
+                                    <div class="col-md-6 text-center">
+                                    <img src="img/ipmahr.png" class="img img-fluid"><br>
+                                    <a href="https://www.ipma-hr.org/" target="_blank" class="btn btn-outline-secondary mt-3 text-light">Click Here</a>
+                                    </div>       
+                                </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</section>
+    <!-- MEMBERSHIP SECTION -->
+    <section id="light-section">
+				<div class="container text-dark">
+					<div class="row">
+						<div class="col text-center">
+							<div class="py-5">
+								<h1 class="display-4">
+									<p class="lead">If you would like to become a member, or view more information about joining IPMA-HROK, please click below. We are always looking for new members to join and contribute to our organization.</p>
+									<a href="membership-request.php" class="btn btn-outline-secondary">Membership</a>
+								</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+           
     
 <?php
  include 'inc/footer.php';

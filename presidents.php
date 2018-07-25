@@ -19,11 +19,16 @@
                 <thead>
                     <tr>
                         <th>Name</th> 
-                        <th>Area</th> 
+                        <th>Organization</th> 
                         <th>Year(s)</th>
                     </tr>
                   </thead> 
                   <tbody>
+                    <tr>
+                      <td>Jake Smith</td>
+                      <td>Office of Management and Enterprise Services</td>
+                      <td>2017-2018</td>
+                    </tr>
                     <tr>
                       <td>April Story</td>
                       <td>Administrative Office of the Courts</td>
